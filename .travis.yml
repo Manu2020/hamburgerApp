@@ -7,6 +7,8 @@ cache:
 before_deploy:
 	- npm global add travis-ci-cloudfront-invalidation
 	- npm run-script build
+script:
+	- npm run-script test
 deploy:
 	provider: s3
 	access_key_id: $AWS_ACCESS_KEY_ID
