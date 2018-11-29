@@ -10,6 +10,8 @@ import * as actions from '../../../store/actions/index'
 
 import { connect } from 'react-redux';
 
+/* eslint-disable no-useless-escape */
+
 class ContactData extends Component {
 	state = {
 		orderForm: {

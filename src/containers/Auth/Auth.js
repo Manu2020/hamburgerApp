@@ -7,6 +7,8 @@ import Spinner from '../../components/UI/Spinner/Spinner';
 import classes from './Auth.css';
 import * as actions from '../../store/actions/index';
 
+/* eslint-disable no-useless-escape */
+
 class Auth extends Component {
 	state = {
 		controls: {
